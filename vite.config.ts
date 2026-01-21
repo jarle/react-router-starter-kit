@@ -15,10 +15,6 @@ export default defineConfig(({ isSsrBuild }) => ({
     tsconfigPaths(),
   ],
   optimizeDeps: {
-    esbuildOptions: isSsrBuild
-      ? {
-          target: 'ES2022',
-        }
-      : {},
+    entries: ['resources/react_app/**/*'],
   },
 }))
