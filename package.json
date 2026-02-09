@@ -55,7 +55,7 @@
     "tailwindcss": "^3.4.17",
     "ts-node": "^10.9.2",
     "typescript": "^5.7.3",
-    "vite": "^6.3.5"
+    "vite": "^7.3.1"
   },
   "dependencies": {
     "@adonisjs/auth": "^9.3.0",
